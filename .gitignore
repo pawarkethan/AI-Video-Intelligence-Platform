@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Secrets
+secrets.toml
+.env
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large/generated data
+data/audio/
+data/frames/
+data/ocr/
+data/cache/
+
+# Uploaded/generated videos
+data/uploads/
+data/outputs/
+outputs/
+
+# Model files
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.bin
+models/*.safetensors
+
+# Generated files
+*.mp4
+*.avi
+*.mov
+*.wav
+*.jpg
+*.jpeg
+*.png
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

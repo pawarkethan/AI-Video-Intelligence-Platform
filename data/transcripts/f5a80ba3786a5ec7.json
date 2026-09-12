@@ -1,0 +1,432 @@
+{
+  "video_id": "f5a80ba3786a5ec7",
+  "language": "hi",
+  "text": "Everybody is talking about artificial intelligence these days, AI. Machine learning is another hot topic. Are they the same thing or are they different? And if so, what are those differences? And deep learning is another one that comes into play. I actually did a video on these three, artificial intelligence, machine learning and deep learning, and talked about where they fit. And there were a lot of comments on that and I read those comments and I'd like to address some of the most frequently asked questions, so that we can clear up some of the myths and misconceptions around this. In addition, something else has happened since that video was recorded and that is the absolute explosion of this area of generative AI. Things like large language models and chat bots have seemed to be taking over the world. We see them everywhere. Really interesting technology. And then also things like deep fakes. These are all within the realm of AI, but how do they fit within each other? How are they related to each other? We're going to take a look at that in this video and try to explain how all these technologies relate and how we can use them. First off, a little bit of a disclaimer. I'm going to have to simplify some of these concepts in order to not make this video last for a week. So those of you, there are really deep experts in the field, apologies, in advance. But we're going to try to make this simple and that will involve some generalizations. First of all, let's start with AI. Artificial intelligence is basically trying to simulate with a computer something that would match or exceed human intelligence. What is intelligence? Well, it could be a lot of different things, but generally we tend to think of it as the ability to learn, to infer and to reason. Things like that. So that's what we're trying to do in the broad field of AI, of artificial intelligence. And if we look at a timeline of AI, it really kind of started back around this time frame. And in those days, it was very premature. Most people had not even heard of it. And it basically was a research project. But I can tell you, as an undergrad, which for me was back during these times, we were doing AI work. In fact, we would use programming languages like LISP or ProLog. And these kinds of things were kind of the predecessors to what became later expert systems. And this was a technology. Again, some of these things existed previous, but that's when it really hit kind of a critical mass and became more popularized. So expert systems of the 1980s, maybe in the 90s. And again, we use technologies like this. All of this was something that we did before we ever touched in to the next topic I'm going to talk about. And that's the area of machine learning. Machine learning is as its name implies. The machine is learning. I don't have to program it. I give it lots of information and it observes things. So for instance, if I start doing this, if I give you this and then ask you to predict what's the next thing that's going to be there, well, you might get it. You might not. And you have very limited training data to base this on. But if I gave you one of those and then ask you what to predict would happen next, well, you're probably going to say this. And then you're going to say it's this. And then you think you got it all figured out. And then you see one of these. And then all of a sudden, I give you one of those and throw you a curveball. So this in fact, and then maybe it goes on like this. So a machine learning algorithm is really good at looking at patterns and discovering patterns within data. The more training data you can give it, the more confident it can be in predicting. So predictions are one of the things that machine learning is particularly good at. Another thing is spotting outliers like this and saying, oh, that doesn't belong in. It looks different than all the other stuff because the sequence was broken. So that's particularly useful in cybersecurity, the area that I work in. Because we're looking for outliers. We're looking for users who are using the system in ways that they shouldn't be. Or ways that they don't typically do. So this technology machine learning is particularly useful for us. And machine learning really came along and became more popularized in this time frame. In the 2010s. And again, back when I was an undergrad writing my dinosaur to class, we were doing this kind of stuff. We never once talked about machine learning. It might have existed but it really wasn't hadn't hit the popular mindset yet. But this technology has matured greatly over the last few decades. And now it becomes the basis of a lot we do going forward. The next layer of our Venn diagram involves deep learning. Well, it's deep learning in the sense that with deep learning, we use these things called neural networks. Neural networks are ways that in a computer we simulate and mimic the way the human brain works, at least to the extent that we understand how the brain works. And it's called deep because we have multiple layers of those neural networks. And the interesting thing about these is they will simulate the way a brain operates. But I don't know if you've noticed, but human brains can be a little bit unpredictable. You put certain things in. You don't always get the very same thing out. And deep learning is the same way. In some cases, we're not actually able to fully understand.",
+  "segments": [
+    {
+      "start": 0.21,
+      "end": 4.53,
+      "text": "Everybody is talking about artificial intelligence these days, AI."
+    },
+    {
+      "start": 4.53,
+      "end": 7.73,
+      "text": "Machine learning is another hot topic."
+    },
+    {
+      "start": 7.73,
+      "end": 10.45,
+      "text": "Are they the same thing or are they different?"
+    },
+    {
+      "start": 10.45,
+      "end": 12.97,
+      "text": "And if so, what are those differences?"
+    },
+    {
+      "start": 12.97,
+      "end": 16.17,
+      "text": "And deep learning is another one that comes into play."
+    },
+    {
+      "start": 16.17,
+      "end": 21.77,
+      "text": "I actually did a video on these three, artificial intelligence, machine learning and deep learning,"
+    },
+    {
+      "start": 21.77,
+      "end": 23.77,
+      "text": "and talked about where they fit."
+    },
+    {
+      "start": 23.77,
+      "end": 29.97,
+      "text": "And there were a lot of comments on that and I read those comments and I'd like to address some of the most frequently asked questions,"
+    },
+    {
+      "start": 29.97,
+      "end": 33.89,
+      "text": "so that we can clear up some of the myths and misconceptions around this."
+    },
+    {
+      "start": 33.89,
+      "end": 44.05,
+      "text": "In addition, something else has happened since that video was recorded and that is the absolute explosion of this area of generative AI."
+    },
+    {
+      "start": 44.05,
+      "end": 50.05,
+      "text": "Things like large language models and chat bots have seemed to be taking over the world."
+    },
+    {
+      "start": 50.05,
+      "end": 51.89,
+      "text": "We see them everywhere."
+    },
+    {
+      "start": 51.89,
+      "end": 54.13,
+      "text": "Really interesting technology."
+    },
+    {
+      "start": 54.13,
+      "end": 56.77,
+      "text": "And then also things like deep fakes."
+    },
+    {
+      "start": 56.85,
+      "end": 62.29,
+      "text": "These are all within the realm of AI, but how do they fit within each other?"
+    },
+    {
+      "start": 62.29,
+      "end": 64.29,
+      "text": "How are they related to each other?"
+    },
+    {
+      "start": 64.29,
+      "end": 71.57,
+      "text": "We're going to take a look at that in this video and try to explain how all these technologies relate and how we can use them."
+    },
+    {
+      "start": 71.57,
+      "end": 73.33,
+      "text": "First off, a little bit of a disclaimer."
+    },
+    {
+      "start": 73.33,
+      "end": 79.65,
+      "text": "I'm going to have to simplify some of these concepts in order to not make this video last for a week."
+    },
+    {
+      "start": 79.65,
+      "end": 84.21,
+      "text": "So those of you, there are really deep experts in the field, apologies, in advance."
+    },
+    {
+      "start": 84.29,
+      "end": 88.69,
+      "text": "But we're going to try to make this simple and that will involve some generalizations."
+    },
+    {
+      "start": 88.69,
+      "end": 90.93,
+      "text": "First of all, let's start with AI."
+    },
+    {
+      "start": 90.93,
+      "end": 101.41,
+      "text": "Artificial intelligence is basically trying to simulate with a computer something that would match or exceed human intelligence."
+    },
+    {
+      "start": 101.41,
+      "end": 102.69,
+      "text": "What is intelligence?"
+    },
+    {
+      "start": 102.69,
+      "end": 109.57,
+      "text": "Well, it could be a lot of different things, but generally we tend to think of it as the ability to learn, to infer and to reason."
+    },
+    {
+      "start": 109.57,
+      "end": 110.45,
+      "text": "Things like that."
+    },
+    {
+      "start": 110.45,
+      "end": 116.53,
+      "text": "So that's what we're trying to do in the broad field of AI, of artificial intelligence."
+    },
+    {
+      "start": 116.53,
+      "end": 121.89,
+      "text": "And if we look at a timeline of AI, it really kind of started back around this time frame."
+    },
+    {
+      "start": 121.89,
+      "end": 125.09,
+      "text": "And in those days, it was very premature."
+    },
+    {
+      "start": 125.09,
+      "end": 127.25,
+      "text": "Most people had not even heard of it."
+    },
+    {
+      "start": 127.25,
+      "end": 130.29,
+      "text": "And it basically was a research project."
+    },
+    {
+      "start": 130.29,
+      "end": 137.81,
+      "text": "But I can tell you, as an undergrad, which for me was back during these times, we were doing AI work."
+    },
+    {
+      "start": 137.89,
+      "end": 143.73,
+      "text": "In fact, we would use programming languages like LISP or ProLog."
+    },
+    {
+      "start": 143.73,
+      "end": 150.61,
+      "text": "And these kinds of things were kind of the predecessors to what became later expert systems."
+    },
+    {
+      "start": 150.61,
+      "end": 152.45,
+      "text": "And this was a technology."
+    },
+    {
+      "start": 152.45,
+      "end": 159.41,
+      "text": "Again, some of these things existed previous, but that's when it really hit kind of a critical mass and became more popularized."
+    },
+    {
+      "start": 159.41,
+      "end": 163.33,
+      "text": "So expert systems of the 1980s, maybe in the 90s."
+    },
+    {
+      "start": 163.33,
+      "end": 165.97,
+      "text": "And again, we use technologies like this."
+    },
+    {
+      "start": 165.97,
+      "end": 173.49,
+      "text": "All of this was something that we did before we ever touched in to the next topic I'm going to talk about."
+    },
+    {
+      "start": 173.49,
+      "end": 176.61,
+      "text": "And that's the area of machine learning."
+    },
+    {
+      "start": 176.61,
+      "end": 180.05,
+      "text": "Machine learning is as its name implies."
+    },
+    {
+      "start": 180.05,
+      "end": 181.09,
+      "text": "The machine is learning."
+    },
+    {
+      "start": 181.09,
+      "end": 182.37,
+      "text": "I don't have to program it."
+    },
+    {
+      "start": 182.37,
+      "end": 185.65,
+      "text": "I give it lots of information and it observes things."
+    },
+    {
+      "start": 185.65,
+      "end": 192.85,
+      "text": "So for instance, if I start doing this, if I give you this and then ask you to predict what's the next thing that's going to be there,"
+    },
+    {
+      "start": 192.85,
+      "end": 194.37,
+      "text": "well, you might get it. You might not."
+    },
+    {
+      "start": 194.37,
+      "end": 197.41,
+      "text": "And you have very limited training data to base this on."
+    },
+    {
+      "start": 197.41,
+      "end": 201.65,
+      "text": "But if I gave you one of those and then ask you what to predict would happen next,"
+    },
+    {
+      "start": 201.65,
+      "end": 203.49,
+      "text": "well, you're probably going to say this."
+    },
+    {
+      "start": 203.49,
+      "end": 204.93,
+      "text": "And then you're going to say it's this."
+    },
+    {
+      "start": 204.93,
+      "end": 206.85,
+      "text": "And then you think you got it all figured out."
+    },
+    {
+      "start": 206.85,
+      "end": 208.37,
+      "text": "And then you see one of these."
+    },
+    {
+      "start": 208.37,
+      "end": 211.97,
+      "text": "And then all of a sudden, I give you one of those and throw you a curveball."
+    },
+    {
+      "start": 211.97,
+      "end": 216.53,
+      "text": "So this in fact, and then maybe it goes on like this."
+    },
+    {
+      "start": 216.53,
+      "end": 222.37,
+      "text": "So a machine learning algorithm is really good at looking at patterns and discovering patterns within data."
+    },
+    {
+      "start": 222.37,
+      "end": 227.81,
+      "text": "The more training data you can give it, the more confident it can be in predicting."
+    },
+    {
+      "start": 227.81,
+      "end": 232.05,
+      "text": "So predictions are one of the things that machine learning is particularly good at."
+    },
+    {
+      "start": 232.05,
+      "end": 236.21,
+      "text": "Another thing is spotting outliers like this and saying,"
+    },
+    {
+      "start": 236.21,
+      "end": 238.29,
+      "text": "oh, that doesn't belong in."
+    },
+    {
+      "start": 238.29,
+      "end": 241.81,
+      "text": "It looks different than all the other stuff because the sequence was broken."
+    },
+    {
+      "start": 241.81,
+      "end": 246.53,
+      "text": "So that's particularly useful in cybersecurity, the area that I work in."
+    },
+    {
+      "start": 246.53,
+      "end": 248.05,
+      "text": "Because we're looking for outliers."
+    },
+    {
+      "start": 248.05,
+      "end": 251.73,
+      "text": "We're looking for users who are using the system in ways that they shouldn't be."
+    },
+    {
+      "start": 251.73,
+      "end": 253.65,
+      "text": "Or ways that they don't typically do."
+    },
+    {
+      "start": 253.65,
+      "end": 257.97,
+      "text": "So this technology machine learning is particularly useful for us."
+    },
+    {
+      "start": 257.97,
+      "end": 264.05,
+      "text": "And machine learning really came along and became more popularized in this time frame."
+    },
+    {
+      "start": 264.05,
+      "end": 266.69,
+      "text": "In the 2010s."
+    },
+    {
+      "start": 266.69,
+      "end": 271.41,
+      "text": "And again, back when I was an undergrad writing my dinosaur to class,"
+    },
+    {
+      "start": 271.41,
+      "end": 273.41,
+      "text": "we were doing this kind of stuff."
+    },
+    {
+      "start": 273.41,
+      "end": 276.45,
+      "text": "We never once talked about machine learning."
+    },
+    {
+      "start": 276.45,
+      "end": 281.09,
+      "text": "It might have existed but it really wasn't hadn't hit the popular mindset yet."
+    },
+    {
+      "start": 281.49,
+      "end": 285.81,
+      "text": "But this technology has matured greatly over the last few decades."
+    },
+    {
+      "start": 285.81,
+      "end": 288.85,
+      "text": "And now it becomes the basis of a lot we do going forward."
+    },
+    {
+      "start": 289.65,
+      "end": 293.81,
+      "text": "The next layer of our Venn diagram involves deep learning."
+    },
+    {
+      "start": 293.81,
+      "end": 298.21,
+      "text": "Well, it's deep learning in the sense that with deep learning,"
+    },
+    {
+      "start": 298.21,
+      "end": 300.85,
+      "text": "we use these things called neural networks."
+    },
+    {
+      "start": 300.85,
+      "end": 306.53,
+      "text": "Neural networks are ways that in a computer we simulate and mimic the way the human brain works,"
+    },
+    {
+      "start": 306.53,
+      "end": 309.49,
+      "text": "at least to the extent that we understand how the brain works."
+    },
+    {
+      "start": 309.49,
+      "end": 313.73,
+      "text": "And it's called deep because we have multiple layers of those neural networks."
+    },
+    {
+      "start": 313.73,
+      "end": 319.73,
+      "text": "And the interesting thing about these is they will simulate the way a brain operates."
+    },
+    {
+      "start": 319.73,
+      "end": 323.97,
+      "text": "But I don't know if you've noticed, but human brains can be a little bit unpredictable."
+    },
+    {
+      "start": 323.97,
+      "end": 325.41,
+      "text": "You put certain things in."
+    },
+    {
+      "start": 325.41,
+      "end": 327.65,
+      "text": "You don't always get the very same thing out."
+    },
+    {
+      "start": 327.65,
+      "end": 329.89,
+      "text": "And deep learning is the same way."
+    },
+    {
+      "start": 329.89,
+      "end": 332.85,
+      "text": "In some cases, we're not actually able to fully understand."
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+.hero-section {
+    padding: 40px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f8faff 0%,
+            #eef4ff 100%
+        );
+
+    border: 1px solid #dbe5f5;
+
+    box-shadow:
+        0 8px 30px rgba(30, 64, 175, 0.08);
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero-badge {
+    display: inline-block;
+
+    padding: 7px 14px;
+
+    border-radius: 20px;
+
+    background: #e8f0ff;
+
+    color: #315fbd;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 15px;
+}
+
+
+.hero-title {
+    font-size: 42px;
+
+    font-weight: 800;
+
+    color: #172554;
+
+    margin: 0;
+}
+
+
+.hero-description {
+    font-size: 17px;
+
+    color: #64748b;
+
+    margin-top: 12px;
+
+    max-width: 720px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   FEATURE CARDS
+   ========================================================= */
+
+.feature-card {
+    min-height: 220px;
+
+    padding: 25px;
+
+    border-radius: 16px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 4px 18px rgba(15, 23, 42, 0.06);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.feature-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 30px rgba(15, 23, 42, 0.10);
+}
+
+
+.feature-icon {
+    font-size: 34px;
+
+    margin-bottom: 15px;
+}
+
+
+.feature-card h3 {
+    margin: 0 0 10px 0;
+
+    color: #172554;
+
+    font-size: 21px;
+}
+
+
+.feature-card p {
+    color: #64748b;
+
+    line-height: 1.6;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   PIPELINE
+   ========================================================= */
+
+.pipeline-card {
+    min-height: 180px;
+
+    padding: 22px;
+
+    border-radius: 15px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e2e8f0;
+}
+
+
+.pipeline-number {
+    width: 42px;
+
+    height: 42px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+}
+
+
+.pipeline-card h4 {
+    margin: 0 0 8px 0;
+
+    color: #172554;
+
+    font-size: 18px;
+}
+
+
+.pipeline-card p {
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   TECHNOLOGY
+   ========================================================= */
+
+.technology-section {
+    text-align: center;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e2e8f0;
+}
+
+
+.technology-section h3 {
+    color: #172554;
+
+    margin-bottom: 10px;
+}
+
+
+.technology-section p {
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   DARK VIDEO-INTELLIGENCE DASHBOARD
+   ========================================================= */
+
+:root {
+    --panel: rgba(17, 14, 40, 0.88);
+    --panel-soft: rgba(25, 20, 53, 0.72);
+    --border: rgba(167, 139, 250, 0.18);
+    --text: #f4f1ff;
+    --muted: #a9a3c6;
+    --violet: #8b5cf6;
+    --cyan: #22d3ee;
+}
+
+.stApp {
+    background:
+        radial-gradient(circle at 82% 0%, rgba(124, 58, 237, 0.23), transparent 28%),
+        radial-gradient(circle at 15% 10%, rgba(6, 182, 212, 0.12), transparent 25%),
+        linear-gradient(135deg, #090617 0%, #110b2a 48%, #070a19 100%);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+html, body, #root, [data-testid="stAppViewContainer"], [data-testid="stMain"],
+[data-testid="stMainBlockContainer"], .main {
+    background-color: #090617 !important;
+}
+
+[data-testid="stHeader"] {
+    background: rgba(9, 6, 23, 0.72);
+    backdrop-filter: blur(14px);
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #100a27 0%, #080615 100%);
+    border-right: 1px solid var(--border);
+}
+
+[data-testid="stSidebar"] * {
+    color: var(--text);
+}
+
+.block-container {
+    max-width: 1380px;
+    padding-top: 2.2rem;
+    padding-bottom: 3rem;
+}
+
+h1, h2, h3, h4, p, label, .stCaption {
+    color: var(--text) !important;
+}
+
+.stCaption, [data-testid="stSidebar"] .stCaption {
+    color: var(--muted) !important;
+}
+
+.stMarkdown a { color: #a78bfa !important; }
+
+div[data-testid="stMetric"] {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--panel-soft);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+}
+
+div[data-testid="stMetric"] label,
+div[data-testid="stMetric"] [data-testid="stMetricValue"] {
+    color: var(--text) !important;
+}
+
+.stButton > button {
+    border: 1px solid rgba(167, 139, 250, 0.34);
+    border-radius: 10px;
+    background: rgba(37, 28, 71, 0.88);
+    color: #f8f7ff;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    border-color: var(--cyan);
+    background: rgba(91, 55, 178, 0.86);
+    transform: translateY(-1px);
+}
+
+.stButton > button[kind="primary"] {
+    border: 0;
+    background: linear-gradient(100deg, #7c3aed, #4f46e5 55%, #0891b2);
+    box-shadow: 0 8px 20px rgba(109, 40, 217, 0.25);
+}
+
+/* Export download controls are rendered separately from ordinary buttons. */
+[data-testid="stDownloadButton"] > button {
+    border: 1px solid rgba(167, 139, 250, 0.38) !important;
+    border-radius: 10px !important;
+    background: rgba(37, 28, 71, 0.92) !important;
+    color: #f8f7ff !important;
+    font-weight: 600 !important;
+}
+
+[data-testid="stDownloadButton"] > button:hover {
+    border-color: #67e8f9 !important;
+    background: rgba(91, 55, 178, 0.9) !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stDownloadButton"] > button * {
+    color: inherit !important;
+    fill: currentColor !important;
+}
+
+[data-baseweb="input"] > div,
+[data-baseweb="select"] > div,
+.stTextArea textarea {
+    background: rgba(12, 10, 29, 0.86) !important;
+    border-color: var(--border) !important;
+    color: var(--text) !important;
+}
+
+/* Disabled text areas are used for the generated transcript. BaseWeb applies
+   a low-opacity text colour to disabled controls unless it is overridden. */
+[data-testid="stTextArea"] textarea:disabled {
+    color: #f8f7ff !important;
+    -webkit-text-fill-color: #f8f7ff !important;
+    opacity: 1 !important;
+    background: rgba(18, 14, 43, 0.98) !important;
+    line-height: 1.65 !important;
+}
+
+[data-testid="stExpander"],
+[data-testid="stFileUploader"] {
+    background: var(--panel-soft);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+}
+
+/* Streamlit's expander summary has its own light surface by default. Keep
+   the "Read detailed summary" control readable in the dark application UI. */
+[data-testid="stExpander"] details,
+[data-testid="stExpander"] details > summary {
+    background: rgba(37, 28, 71, 0.9) !important;
+    color: #f8f7ff !important;
+}
+
+[data-testid="stExpander"] details > summary *,
+[data-testid="stExpander"] details > summary svg {
+    color: #f8f7ff !important;
+    fill: #f8f7ff !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stExpander"] details > div {
+    background: rgba(18, 14, 43, 0.96) !important;
+    color: #f8f7ff !important;
+}
+
+/* The JSON component uses a separate light CodeMirror surface by default. */
+[data-testid="stJson"] {
+    border: 1px solid var(--border) !important;
+    border-radius: 14px !important;
+    overflow: hidden;
+}
+
+[data-testid="stJson"] > div,
+[data-testid="stJson"] pre,
+[data-testid="stJson"] code {
+    background: rgba(18, 14, 43, 0.98) !important;
+    color: #e9e5ff !important;
+}
+
+/* React JSON View applies syntax colours inline. Its default key colour is
+   nearly black, so force every nested JSON label/value to a readable tint. */
+[data-testid="stJson"] *,
+[data-testid="stJson"] *::before,
+[data-testid="stJson"] *::after {
+    color: #e9e5ff !important;
+    text-shadow: none !important;
+}
+
+[data-testid="stJson"] svg {
+    fill: #a5f3fc !important;
+}
+
+[data-testid="stChatMessage"] {
+    background: var(--panel-soft);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+}
+
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"],
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] li,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] ol,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] ul,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] span {
+    color: #f6f3ff !important;
+    -webkit-text-fill-color: #f6f3ff !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] strong {
+    color: #ffffff !important;
+}
+
+/* Streamlit keeps nested file-upload and chat-input surfaces light unless
+   they are targeted directly. These rules make labels, entered text, and
+   controls readable against the dashboard background. */
+[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] {
+    background: rgba(18, 14, 43, 0.94) !important;
+    border: 1px dashed rgba(167, 139, 250, 0.58) !important;
+    color: #f8f7ff !important;
+}
+
+[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] * {
+    color: #ded8ff !important;
+}
+
+[data-testid="stFileUploader"] button {
+    background: linear-gradient(100deg, #7c3aed, #4f46e5) !important;
+    border: 0 !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stChatInput"] {
+    background: transparent !important;
+}
+
+[data-testid="stChatInput"] > div,
+[data-testid="stChatInput"] [data-baseweb="base-input"],
+[data-testid="stChatInput"] [data-baseweb="input"] {
+    background: rgba(18, 14, 43, 0.98) !important;
+    border-color: rgba(167, 139, 250, 0.48) !important;
+}
+
+[data-testid="stChatInput"] textarea,
+[data-testid="stChatInput"] input {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    caret-color: #67e8f9 !important;
+    font-weight: 500 !important;
+}
+
+[data-testid="stChatInput"] textarea::placeholder,
+[data-testid="stChatInput"] input::placeholder {
+    color: #b6b1cb !important;
+    -webkit-text-fill-color: #b6b1cb !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stChatInput"] button {
+    background: rgba(124, 58, 237, 0.26) !important;
+    color: #e9e5ff !important;
+}
+
+[data-testid="stBottom"],
+[data-testid="stBottomBlockContainer"],
+.stBottom {
+    background: #090617 !important;
+}
+
+.hero-section {
+    background: linear-gradient(125deg, rgba(47, 29, 99, 0.92), rgba(13, 33, 67, 0.82));
+    border-color: rgba(139, 92, 246, 0.32);
+}
+
+.hero-title, .feature-card h3, .pipeline-card h4,
+.technology-section h3 { color: var(--text) !important; }
+.hero-description, .feature-card p, .pipeline-card p,
+.technology-section p { color: var(--muted) !important; }
+
+.feature-card, .pipeline-card, .technology-section {
+    background: var(--panel-soft);
+    border-color: var(--border);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+}
+
+.insight-summary-card {
+    margin: 0.75rem 0 1.5rem;
+    padding: 1.35rem 1.5rem;
+    border: 1px solid rgba(34, 211, 238, 0.28);
+    border-radius: 16px;
+    background: linear-gradient(100deg, rgba(31, 24, 67, 0.95), rgba(12, 42, 63, 0.75));
+    color: #f5f3ff;
+    font-size: 1.04rem;
+    line-height: 1.7;
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+}
+
+.insight-list-item {
+    padding: 0.65rem 0.8rem;
+    margin: 0.45rem 0;
+    border-left: 2px solid var(--violet);
+    border-radius: 0 8px 8px 0;
+    background: rgba(139, 92, 246, 0.08);
+    color: #e9e5ff;
+}
+
+.insight-tag {
+    display: inline-block;
+    margin: 0.15rem 0.2rem 0.3rem 0;
+    padding: 0.38rem 0.7rem;
+    border: 1px solid rgba(34, 211, 238, 0.26);
+    border-radius: 999px;
+    background: rgba(6, 182, 212, 0.1);
+    color: #a5f3fc;
+    font-size: 0.86rem;
+}
+
+.moment-time {
+    margin-top: 0.1rem;
+    padding: 0.38rem 0.45rem;
+    border: 1px solid rgba(167, 139, 250, 0.35);
+    border-radius: 8px;
+    background: rgba(124, 58, 237, 0.16);
+    color: #ddd6fe;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-align: center;
+}
