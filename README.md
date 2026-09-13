@@ -131,7 +131,7 @@ In the Rims hospital Adilabad, Telangana
 
 <!-- add your photos below -->
 <https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Community_Services/blood.jpeg>
-<https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Community_Services/Serving.png>
+<https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Community_Services/Senior_Citizen.jpeg>
 <https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Community_Services/tree.jpeg>
 
 
