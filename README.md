@@ -77,12 +77,12 @@ During this course, I strengthened my technical and problem-solving skills throu
 </div>
 
 <!-- Project 1 -->
-<h3 id="project1">Project 1: AI Video Intelligence Platform/h3>
+<h3 id="project1">Project 1: AI Video Intelligence Platform</h3>
 <p>
  An AI-powered system for understanding, searching and extracting knowledge from video content.Domain: Artificial Intelligence and Machine Learning — Speech Processing, Computer Vision, OCR and Video Intelligence
 </p>
 <p>
-  <a href="<https://github.com/sure-trust/PAWAR-KETHAN-g39-ai-ml/blob/main/Course%20report/SURE%20Trust%20Project%20%20Report.pdf>" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="<https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Project_Report/SURE%20Trust%20Project%20%20Report.pdf>" target="_blank"><strong>→ View Full Project Report</strong></a>
 </p>
 
 
@@ -130,9 +130,13 @@ In the Rims hospital Adilabad, Telangana
 ### **Photos**
 
 <!-- add your photos below -->
-<!-- change url below with your image urls (inside  src='')-->
+<https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Community_Services/blood.jpeg>
+<https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Community_Services/Serving.png>
+<https://github.com/pawarkethan/AI-Video-Intelligence-Platform/blob/main/Community_Services/tree.jpeg>
 
-- These are just placeholder (sample) images <!-- remove this line -->
+
+
+
 
 <div align="center">
 <img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/1/1759752731458?e=1766016000&v=beta&t=7GABy91-0FNbir386wPdJ-Grr385JzS3tR5LQIw1CWg" alt="Community Service Photo 1" width="30%">
